@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+.main-container{
+    height: 400px;
+    width: 600px;
+    /*background-color: aqua;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+span{
+    font-weight: bold;
+}
+.row-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.option{
+    border: 2px solid black;
+    width: 40%;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+    background: none;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: white;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: #383164;
+    color: white;
+}
+.img-container{
+    height: 50%;
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.points{
+    margin-top: 10px;
+    /*text-align: center;*/
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.correct-wrong-container{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.correct{
+    border: 2px solid forestgreen;
+    background-color: #84F164;
+}
+
+.wrong{
+    border: 2px solid red;
+    background-color: #FF2828;
+}
+
+.final-msg{
+    width: 300px;
+    height: 300px;
+    font-size: 35px;
+    background-color: #383164;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.correct-answer{
+    margin-top: 50px;
+    color: #84F164;
+    padding-bottom: 35px;
+}
+
+.wrong-answer{
+    margin-bottom: 50px;
+    padding-top: 35px;
+    color: #FF1700;
+}
+
+.option-letter{
+    color: black;
+    margin-right: 15px;
+}
